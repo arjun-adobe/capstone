@@ -39,11 +39,11 @@
 
                     > img {
                         margin: 7px 0;
-                        width: 100%;
-                        height: 100%;
+                        /*width: 100%;
+                        height: 100%;*/
                         object-fit: cover;
                         display: block;
-                        border-radius: 50%; 
+                        /* border-radius: 50%;  */
                         width: 164px; 
                         height: 164px;
                         border-radius: 50%; 
@@ -62,14 +62,14 @@
                 }
                 > p:first-child {
                     font-size: 24px;
-                    font-family: var(--fontFamilySerif, "Asar", Georgia, "Times New Roman", Times, serif);
+                    font-family: var(--fontFamilySerif,"Times New Roman", "Asar", Georgia, Times, serif);
                     margin: 0 0 6px;
                 }
 
                 >p:nth-child(2) {
                     font-size: 14px;
                     text-transform: uppercase;
-                    font-weight: 500;
+                    /* font-weight: 500; */
                     line-height: 1.5;
                     margin: 0 0 3.5px;
                     font-weight:600;
