@@ -89,3 +89,8 @@
     margin-left:3%;
     margin-right:3%;
  }
+
+ .article-cards img {
+    height: 180px;
+    max-width: 280px;
+ }
