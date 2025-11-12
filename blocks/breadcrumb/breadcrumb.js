@@ -40,6 +40,7 @@ async function getItems() {
 }
 
 export default async function decorate(block) {
+  console.log(block);
   const breadcrumbs = createElementWithClasses("nav");
   breadcrumbs.className = "breadcrumbs";
   const items = await getItems();
