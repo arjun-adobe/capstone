@@ -21,6 +21,7 @@ function closedOnEscape(e) {
   }
 }
 
+
 function opensOnKeydown(e) {
   const focused = document.activeElement;
   const isNavDrop = focused.className === "nav-drop";
